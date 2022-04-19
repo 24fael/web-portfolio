@@ -1,0 +1,44 @@
+*
+{
+    font-family: 'Open Sans', sans-serif;
+    scroll-behavior: smooth;
+    color: #1BA098;
+}
+
+button
+{
+    border-radius: 30px !important;
+    background-color: #DEB992 !important;
+    border-color: #DEB992 !important;
+}
+
+.navbar
+{
+    background: rgb(27, 160, 152, 0.5);
+}
+
+.navbar-brand
+{
+    font-family: 'Anton', sans-serif;
+}
+
+h1
+{
+    font-family: 'Anton', sans-serif;
+}
+
+h3
+{
+    font-family: 'Anton', sans-serif;
+}
+
+u
+{
+    font-family: 'Anton', sans-serif;
+}
+
+strong
+{
+    font-weight: bold;
+}
+
