@@ -2,19 +2,26 @@
 {
     font-family: 'Open Sans', sans-serif;
     scroll-behavior: smooth;
-    color: #1BA098;
+    color: #575A6C;
 }
 
 button
 {
     border-radius: 30px !important;
-    background-color: #DEB992 !important;
-    border-color: #DEB992 !important;
+    background-color: #B4C540 !important;
+    border-color: #B4C540 !important;
+}
+
+input, textarea, .card
+{
+    border-radius: 30px !important;
 }
 
 .navbar
 {
-    background: rgb(27, 160, 152, 0.5);
+    background: rgb(54, 134, 201);
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
 }
 
 .navbar-brand
@@ -22,18 +29,9 @@ button
     font-family: 'Anton', sans-serif;
 }
 
-h1
+h1, h3, u
 {
-    font-family: 'Anton', sans-serif;
-}
-
-h3
-{
-    font-family: 'Anton', sans-serif;
-}
-
-u
-{
+    color: rgb(54, 134, 201);
     font-family: 'Anton', sans-serif;
 }
 
@@ -42,3 +40,18 @@ strong
     font-weight: bold;
 }
 
+.jumbotron, .row
+{
+    border-radius: 20px;
+}
+
+#self-image
+{
+    border: 10px solid #B4C540;
+    border-radius: 50%;
+}
+
+.card-title
+{
+    font-weight: bold;
+}
