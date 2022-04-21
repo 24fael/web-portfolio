@@ -13,7 +13,7 @@ body
     background-size: cover;
 }
 
-button
+.btn
 {
     border-radius: 30px !important;
     background-color: #B4C540 !important;
@@ -86,4 +86,21 @@ iframe
 .about-link
 {
     color: #B4C540;
+}
+
+#first-btn:hover {
+    background-position: right center !important; /* change the direction of the change here */
+}
+
+#first-btn
+{
+    border: none !important;
+    cursor: pointer;
+    flex: 1 1 auto;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    background-image: linear-gradient(to right, #3686C9 0%, #B4C540 51%, #3686C9 100%) !important;
 }
