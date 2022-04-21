@@ -34,6 +34,7 @@ input, textarea, .card
 .navbar
 {
     background: rgb(54, 134, 201, 0.9);
+    backdrop-filter: blur(6.5px);
     border-bottom-left-radius: 30px;
     border-bottom-right-radius: 30px;
 }
@@ -80,4 +81,9 @@ strong
 iframe
 {
     border: 0 !important;
+}
+
+.about-link
+{
+    color: #B4C540;
 }
