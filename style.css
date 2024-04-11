@@ -27,7 +27,6 @@ input, textarea, .card
 
 .card
 {
-    width: 18rem !important;
     min-height: 25rem !important;
 }
 
