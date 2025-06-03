@@ -1,157 +1,376 @@
 <!DOCTYPE html>
 <html lang="en" data-bs-theme="dark">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Earl Diaz | Portfolio</title>
-    
-    <!-- Bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-    
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans&family=Poppins:wght@600&display=swap" rel="stylesheet">
-    
-    <!-- AOS -->
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    
-    <!-- Ext CSS -->
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
-    <div class="container">
-        <div>
-            <a class="navbar-brand" href="#">@earlrafael</a>
-        </div>
-        <div>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                <a class="nav-link" href="#home">Home</a>
-                </li>
-                <li class="nav-item">
-                <a class="nav-link" href="#about-me">About</a>
-                </li>
-                <li class="nav-item">
-                <a class="nav-link" href="#my-projects">Projects</a>
-                </li>
-            </ul>
-            </div>
-        </div>
-    </div>
-    </nav>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Earl Diaz | Portfolio</title>
 
-    <main class="container">
-        <section class="row pt-5 pl-5 pr-5" id="home">
-            <div class="col-12">
-                <div class="jumbotron bg-dark shadow d-flex flex-column flex-md-row justify-content-md-between align-items-md-center" data-aos="fade-up" data-aos-duration="3000">
-                    <div class="order-2 order-md-1 p-4 p-md-0">
-                        <h1 class="display-4">Hi! I'm <u>Earl</u> </h1>
-                        <p class="lead text-white">A cyclist, tech enthusiast, pretentious coffee connoisseur, and enjoys building digital products for the world-wide web.</p>
-                        <a href="#about-me"><button class="btn btn-lg btn-dark" id="first-btn">Learn More</button></a>
-                    </div>
-                    <div class="order-1 order-md-2">
-                        <lottie-player src="https://assets1.lottiefiles.com/packages/lf20_bf5x7mel.json"  background="transparent"  speed="1"  style="width: 300px; height: 300px;"  loop autoplay></lottie-player>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="row mt-3 mx-3 p-4 mx-md-0 p-md-5 mb-5 bg-dark shadow text-justify" data-aos="fade-up" data-aos-duration="3000" id="about-me">  
-            <div class="col-12 d-flex justify-content-center align-items-center" id="about-card">
-                <img class="img-fluid text-center d-none d-md-block" style="height: 320px; width:auto;" src="./images/me.png" id="self-image" alt="me">
+        <!-- Bootstrap -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+            crossorigin="anonymous"
+        />
+
+        <!-- Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,600;1,600&family=Lato&display=swap"
+            rel="stylesheet"
+        />
+
+        <!-- AOS -->
+        <link
+            href="https://unpkg.com/aos@2.3.1/dist/aos.css"
+            rel="stylesheet"
+        />
+
+        <!-- Ext CSS -->
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+            <div class="container">
                 <div>
-                    <h3>About Me</h3>
-                    <p>
-                        Earl Diaz is a <em>goal-oriented</em> web developer/software engineer. He has previously done volunteer work for <a class="about-link text-decoration-none" target="_blank" href="https://devcon.ph/">DevCon Philippines</a> and <a class="about-link text-decoration-none" target="_blank" href="https://gdg.community.dev/gdg-manila/">GDG Philippines</a> as a Front-end developer and 
-                        Programs Team member respectively. His most recent accomplishment was being a pioneer member of the product development team at <a class="about-link text-decoration-none" target="_blank" href="https://www.mseedsystems.com/">Mustard Seed Systems Corp.</a> and building the Recurring Management System.
-                    </p>
+                    <a class="navbar-brand" href="#">@earlrafael</a>
                 </div>
-            </div>
-        </section>
-        <section class="row mx-3 p-3 mx-md-0 p-md-5 mb-5 bg-dark shadow" id="my-projects" data-aos="fade-up" data-aos-duration="3000">
-            <div class="col-12">
-                <h3>My Projects</h3>
-            </div>
-            <div class="col-12 my-4">
-                <div class="card text-center">
-                    <img src="./images/verb-screenshot.png" class="card-img-top img-fluid" alt="...">
-                    <div class="card-body">
-                    <h5 class="card-title">Verb</h5>
-                    <p class="card-text text-justify">A task management application that uses NextJS with Typescript, Zustand, Firebase Realtime Database, TinyMCE, and DaisyUI with TailwindCSS.</p>
-                    <a href="https://verb-app-git-master-24faels-projects.vercel.app/" target="_blank" class="btn btn-dark my-2">View Project</a>
+                <div>
+                    <button
+                        class="navbar-toggler"
+                        type="button"
+                        data-toggle="collapse"
+                        data-target="#navbarNavDropdown"
+                        aria-controls="navbarNavDropdown"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation"
+                    >
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div
+                        class="collapse navbar-collapse"
+                        id="navbarNavDropdown"
+                    >
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#home">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#about-me">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#my-projects"
+                                    >Projects</a
+                                >
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </div>
-            <div class="col-12 mb-4">
-                <div class="card text-center">
-                    <img src="./images/bicycle-cartel.png" class="card-img-top img-fluid" alt="...">
-                    <div class="card-body">
-                    <h5 class="card-title">Bicycle Cartel</h5>
-                    <p class="card-text text-justify">Bicycle Cartel is a full-stack MERN application that is designed for bicycle enthusiasts looking for bicycle parts/accessories.</p>
-                    <a href="https://bicycle-cartel-frontend.vercel.app/" target="_blank" class="btn btn-dark my-2">View Project</a>
+        </nav>
+
+        <main class="container">
+            <section class="row pt-5 pl-5 pr-5 mb-5" id="home">
+                <div class="col-12">
+                    <div
+                        class="jumbotron bg-dark shadow d-flex flex-column flex-md-row justify-content-md-between align-items-md-center"
+                        data-aos="fade-up"
+                        data-aos-duration="3000"
+                    >
+                        <div class="order-2 order-md-1 p-4 p-md-0">
+                            <h1 class="display-4">Hi! I'm <u>Earl</u></h1>
+                            <p class="lead text-white">
+                                A cyclist, tech enthusiast, pretentious coffee
+                                connoisseur, and enjoys building digital
+                                products for the world-wide web.
+                            </p>
+                            <a href="#about-me"
+                                ><button
+                                    class="btn btn-lg btn-dark"
+                                    id="first-btn"
+                                >
+                                    Learn More
+                                </button></a
+                            >
+                        </div>
+                        <div class="order-1 order-md-2">
+                            <lottie-player
+                                src="https://assets1.lottiefiles.com/packages/lf20_bf5x7mel.json"
+                                background="transparent"
+                                speed="1"
+                                style="width: 300px; height: 300px"
+                                loop
+                                autoplay
+                            ></lottie-player>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-12">
-                <div class="card text-center">
-                    <img src="./images/dictech.png" class="card-img-top img-fluid" alt="...">
-                    <div class="card-body">
-                    <h5 class="card-title">Dictech Shutter</h5>
-                    <p class="card-text text-justify">A website built with Hostinger CMS. It showcases the company profile of Dictech Shutter.</p>
-                    <a href="https://dictechshutter.com/" target="_blank" class="btn btn-dark my-2">View Project</a>
+            </section>
+            <section
+                class="row mt-3 mx-3 p-4 mx-md-0 p-md-5 mb-5 bg-dark shadow text-justify"
+                data-aos="fade-up"
+                data-aos-duration="3000"
+                id="about-me"
+            >
+                <div
+                    class="col-12 d-flex justify-content-center align-items-center"
+                    id="about-card"
+                >
+                    <img
+                        class="img-fluid text-center d-none d-md-block"
+                        style="height: 320px; width: auto"
+                        src="./images/me.png"
+                        id="self-image"
+                        alt="me"
+                    />
+                    <div>
+                        <h3>About Me</h3>
+                        <p>
+                            Earl Diaz is a <em>goal-oriented</em> web
+                            developer/software engineer. He has previously done
+                            volunteer work for
+                            <a
+                                class="about-link text-decoration-none"
+                                target="_blank"
+                                href="https://devcon.ph/"
+                                >DevCon Philippines</a
+                            >
+                            and
+                            <a
+                                class="about-link text-decoration-none"
+                                target="_blank"
+                                href="https://gdg.community.dev/gdg-manila/"
+                                >GDG Philippines</a
+                            >
+                            as a Front-end developer and Programs Team member
+                            respectively. His first developer role was being a
+                            pioneer member of the product development team at
+                            <a
+                                class="about-link text-decoration-none"
+                                target="_blank"
+                                href="https://www.mseedsystems.com/"
+                                >Mustard Seed Systems Corp.</a
+                            >
+                            and most recently, taught web development to 100+
+                            students and career-shifters at
+                            <a
+                                class="about-link text-decoration-none"
+                                target="_blank"
+                                href="https://zuitt.co/"
+                                >Zuitt Coding Bootcamp</a
+                            >. His current role is a mid-level web developer at
+                            <a
+                                class="about-link text-decoration-none"
+                                target="_blank"
+                                href="https://svengroup.com/"
+                                >SVEN</a
+                            >, a digital advertising agency, where he works on
+                            adding features and maintaining websites/web apps
+                            for big brands like <em>Lazada</em> and
+                            <em>Toyota</em>.
+                        </p>
                     </div>
                 </div>
+            </section>
+            <section
+                class="row mx-3 p-3 mx-md-0 p-md-5 mb-5 bg-dark shadow"
+                id="my-projects"
+                data-aos="fade-up"
+                data-aos-duration="3000"
+            >
+                <div class="col-12">
+                    <h3>My Projects</h3>
+                </div>
+                <div class="col-12 my-4">
+                    <div class="card text-center">
+                        <img
+                            src="./images/theprojectph.png"
+                            class="card-img-top img-fluid"
+                            alt="..."
+                        />
+                        <div class="card-body">
+                            <h5 class="card-title">The Project PH</h5>
+                            <p class="card-text text-justify">
+                                An e-commerce website built with Wordpress,
+                                WooCommerce, and Elementor. It is a live web
+                                store being used by thousands of users monthly
+                                and includes a robust backend which is used by
+                                the store managers.
+                            </p>
+                            <a
+                                href="https://theprojectph.com/"
+                                target="_blank"
+                                class="btn btn-dark my-2"
+                                id="view-project-btn"
+                                >View Project</a
+                            >
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 mb-4">
+                    <div class="card text-center">
+                        <img
+                            src="./images/dictech.png"
+                            class="card-img-top img-fluid"
+                            alt="..."
+                        />
+                        <div class="card-body">
+                            <h5 class="card-title">Dictech Shutter</h5>
+                            <p class="card-text text-justify">
+                                A company website built with Hostinger's
+                                built-in CMS. It showcases the company profile
+                                of Dictech Shutter.
+                            </p>
+                            <a
+                                href="https://dictechshutter.com/"
+                                target="_blank"
+                                class="btn btn-dark my-2"
+                                id="view-project-btn"
+                                >View Project</a
+                            >
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 mb-4">
+                    <div class="card text-center">
+                        <img
+                            src="./images/verb-screenshot.png"
+                            class="card-img-top img-fluid"
+                            alt="..."
+                        />
+                        <div class="card-body">
+                            <h5 class="card-title">Verb</h5>
+                            <p class="card-text text-justify">
+                                A task management application that uses NextJS
+                                with Typescript, Zustand, Firebase Realtime
+                                Database, TinyMCE, and DaisyUI with TailwindCSS.
+                            </p>
+                            <a
+                                href="https://verb-app-git-master-24faels-projects.vercel.app/"
+                                target="_blank"
+                                class="btn btn-dark my-2"
+                                id="view-project-btn"
+                                >View Project</a
+                            >
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 mb-4">
+                    <div class="card text-center">
+                        <img
+                            src="./images/bicycle-cartel.png"
+                            class="card-img-top img-fluid"
+                            alt="..."
+                        />
+                        <div class="card-body">
+                            <h5 class="card-title">Bicycle Cartel</h5>
+                            <p class="card-text text-justify">
+                                Bicycle Cartel is a full-stack MERN application
+                                that is designed for bicycle enthusiasts looking
+                                for bicycle parts/accessories.
+                            </p>
+                            <a
+                                href="https://bicycle-cartel-frontend.vercel.app/"
+                                target="_blank"
+                                class="btn btn-dark my-2"
+                                id="view-project-btn"
+                                >View Project</a
+                            >
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="py-3 w-100 bg-dark">
+            <div class="container d-flex justify-content-between">
+                <div>
+                    <a
+                        class="text-decoration-none"
+                        target="_blank"
+                        href="https://www.linkedin.com/in/diazearlrafael/"
+                    >
+                        <img
+                            class="me-3"
+                            src="./images/linkedin.png"
+                            alt="LinkedIn Logo"
+                            width="20"
+                            data-toggle="tooltip"
+                            data-placement="top"
+                            title="LinkedIn"
+                        />
+                    </a>
+                    <a
+                        class="text-decoration-none"
+                        target="_blank"
+                        href="https://gitlab.com/fael_"
+                    >
+                        <img
+                            class="me-3"
+                            src="./images/gitlab.png"
+                            alt="Gitlab Logo"
+                            width="20"
+                            data-toggle="tooltip"
+                            data-placement="top"
+                            title="GitLab"
+                        />
+                    </a>
+                    <a
+                        class="text-decoration-none"
+                        target="_blank"
+                        href="https://www.instagram.com/earlrafael_/"
+                    >
+                        <img
+                            class="me-3"
+                            src="./images/instagram.png"
+                            alt="IG Logo"
+                            width="20"
+                            data-toggle="tooltip"
+                            data-placement="top"
+                            title="Instagram"
+                        />
+                    </a>
+                </div>
+                <p class="d-none d-md-block">
+                    <strong class="text-white text-justify"
+                        >Made with 🤍 by Earl Rafael Diaz.</strong
+                    >
+                </p>
             </div>
-        </section>
-    </main>
-    
-    <footer class="py-3 w-100 bg-dark">
-        <div class="container d-flex justify-content-between">
-            <div>
-                <a class="text-decoration-none" target="_blank" href="https://www.linkedin.com/in/diazearlrafael/">
-                    <img class="me-3" src="./images/linkedin.png" alt="LinkedIn Logo" width="20" data-toggle="tooltip" data-placement="top" title="LinkedIn">
-                </a>
-                <a class="text-decoration-none" target="_blank" href="https://gitlab.com/fael_">
-                    <img class="me-3" src="./images/gitlab.png" alt="Gitlab Logo" width="20" data-toggle="tooltip" data-placement="top" title="GitLab">
-                </a>
-                <a class="text-decoration-none" target="_blank" href="https://www.instagram.com/earlrafael_/">
-                    <img class="me-3" src="./images/instagram.png" alt="IG Logo" width="20" data-toggle="tooltip" data-placement="top" title="Instagram">
-                </a>
-            </div>
-            <p class="d-none d-md-block"><strong class="text-white text-justify">Made with 🤍 by Earl Rafael Diaz.</strong></p>
-        </div>
-    </footer>
+        </footer>
 
-    <!-- Bootstrap JS -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+        <!-- Bootstrap JS -->
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+            crossorigin="anonymous"
+        ></script>
 
-    <!-- AOS JS -->
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <!-- AOS JS -->
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
-    <!-- Lottie Animation -->
-    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+        <!-- Lottie Animation -->
+        <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
 
-    <!-- Custom JS -->
-    <script>
-        // Initializes AOS
-        AOS.init();
-        
-        // Enables tooltips
-        $(function () {
-            $('[data-toggle="tooltip"]').tooltip()
-        })
+        <!-- Custom JS -->
+        <script>
+            // Initializes AOS
+            AOS.init();
 
-        // Add active class to current nav-link
-        $(document).ready(function() {
-            $('li.active').removeClass('active');
-            $('a[href="' + location.pathname + '"]').closest('li').addClass('active'); 
-        });
-    </script>
-</body>
+            // Enables tooltips
+            $(function () {
+                $('[data-toggle="tooltip"]').tooltip();
+            });
+
+            // Add active class to current nav-link
+            $(document).ready(function () {
+                $("li.active").removeClass("active");
+                $('a[href="' + location.pathname + '"]')
+                    .closest("li")
+                    .addClass("active");
+            });
+        </script>
+    </body>
 </html>
