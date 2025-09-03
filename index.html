@@ -30,43 +30,42 @@
 
         <!-- Ext CSS -->
         <link rel="stylesheet" href="style.css" />
+
+        <!-- Bootstrap JS -->
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+            crossorigin="anonymous"
+            defer
+        ></script>
     </head>
     <body>
         <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
-            <div class="container">
-                <div>
-                    <a class="navbar-brand" href="#">@earlrafael</a>
-                </div>
-                <div>
-                    <button
-                        class="navbar-toggler"
-                        type="button"
-                        data-toggle="collapse"
-                        data-target="#navbarNavDropdown"
-                        aria-controls="navbarNavDropdown"
-                        aria-expanded="false"
-                        aria-label="Toggle navigation"
-                    >
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div
-                        class="collapse navbar-collapse"
-                        id="navbarNavDropdown"
-                    >
-                        <ul class="navbar-nav">
-                            <li class="nav-item">
-                                <a class="nav-link" href="#home">Home</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#about-me">About</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#my-projects"
-                                    >Projects</a
-                                >
-                            </li>
-                        </ul>
-                    </div>
+            <div class="container position-relative">
+                <a class="navbar-brand" href="#">@earlrafael</a>
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown"
+                    aria-controls="navbarNavDropdown"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about-me">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#my-projects">Projects</a>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </nav>
@@ -109,73 +108,77 @@
                 </div>
             </section>
             <section
-                class="row mt-3 mx-3 p-4 mx-md-0 p-md-5 mb-5 bg-dark shadow text-justify"
+                class="row mt-3 p-4 mx-1 mx-md-0 p-md-5 mb-5 bg-dark shadow text-justify"
                 data-aos="fade-up"
                 data-aos-duration="3000"
                 id="about-me"
             >
-                <div
-                    class="col-12 d-flex justify-content-center align-items-center"
-                    id="about-card"
-                >
-                    <img
-                        class="img-fluid text-center d-none d-md-block"
-                        style="height: 320px; width: auto"
-                        src="./images/me.png"
-                        id="self-image"
-                        alt="me"
-                    />
-                    <div>
-                        <h3>About Me</h3>
-                        <p>
-                            Earl Diaz is a <em>goal-oriented</em> web
-                            developer/software engineer. He has previously done
-                            volunteer work for
-                            <a
-                                class="about-link text-decoration-none"
-                                target="_blank"
-                                href="https://devcon.ph/"
-                                >DevCon Philippines</a
-                            >
-                            and
-                            <a
-                                class="about-link text-decoration-none"
-                                target="_blank"
-                                href="https://gdg.community.dev/gdg-manila/"
-                                >GDG Philippines</a
-                            >
-                            as a Front-end developer and Programs Team member
-                            respectively. His first developer role was being a
-                            pioneer member of the product development team at
-                            <a
-                                class="about-link text-decoration-none"
-                                target="_blank"
-                                href="https://www.mseedsystems.com/"
-                                >Mustard Seed Systems Corp.</a
-                            >
-                            and most recently, taught web development to 100+
-                            students and career-shifters at
-                            <a
-                                class="about-link text-decoration-none"
-                                target="_blank"
-                                href="https://zuitt.co/"
-                                >Zuitt Coding Bootcamp</a
-                            >. His current role is a mid-level web developer at
-                            <a
-                                class="about-link text-decoration-none"
-                                target="_blank"
-                                href="https://svengroup.com/"
-                                >SVEN</a
-                            >, a digital advertising agency, where he works on
-                            adding features and maintaining websites/web apps
-                            for big brands like <em>Lazada</em> and
-                            <em>Toyota</em>.
-                        </p>
+                <div class="col-12">
+                    <div
+                        class="d-flex justify-content-center align-items-center"
+                        id="about-card"
+                    >
+                        <img
+                            class="img-fluid text-center d-none d-md-block"
+                            style="height: 320px; width: auto"
+                            src="./images/me.png"
+                            id="self-image"
+                            alt="me"
+                        />
+                        <div>
+                            <h3>About Me</h3>
+                            <p>
+                                Earl Diaz is a <em>goal-oriented</em> web
+                                developer/software engineer. He has previously
+                                done volunteer work for
+                                <a
+                                    class="about-link text-decoration-none"
+                                    target="_blank"
+                                    href="https://devcon.ph/"
+                                    >DevCon Philippines</a
+                                >
+                                and
+                                <a
+                                    class="about-link text-decoration-none"
+                                    target="_blank"
+                                    href="https://gdg.community.dev/gdg-manila/"
+                                    >GDG Philippines</a
+                                >
+                                as a Front-end developer and Programs Team
+                                member respectively. His first developer role
+                                was at
+                                <a
+                                    class="about-link text-decoration-none"
+                                    target="_blank"
+                                    href="https://www.mseedsystems.com/"
+                                    >Mustard Seed Systems Corp.</a
+                                >
+                                and afterwards, taught web development to 100+
+                                students and career-shifters at
+                                <a
+                                    class="about-link text-decoration-none"
+                                    target="_blank"
+                                    href="https://zuitt.co/"
+                                    >Zuitt Coding Bootcamp</a
+                                >. His current role is a mid-level web developer
+                                at
+                                <a
+                                    class="about-link text-decoration-none"
+                                    target="_blank"
+                                    href="https://svengroup.com/"
+                                    >SVEN</a
+                                >, a digital advertising agency, where he works
+                                on adding features and maintaining websites/web
+                                apps for big brands like
+                                <strong class="text-white">Lazada</strong> and
+                                <strong class="text-white">Toyota</strong>.
+                            </p>
+                        </div>
                     </div>
                 </div>
             </section>
             <section
-                class="row mx-3 p-3 mx-md-0 p-md-5 mb-5 bg-dark shadow"
+                class="row p-3 mx-1 mx-md-0 p-md-5 mb-5 bg-dark shadow"
                 id="my-projects"
                 data-aos="fade-up"
                 data-aos-duration="3000"
@@ -341,12 +344,7 @@
             </div>
         </footer>
 
-        <!-- Bootstrap JS -->
-        <script
-            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
-            crossorigin="anonymous"
-        ></script>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
         <!-- AOS JS -->
         <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
